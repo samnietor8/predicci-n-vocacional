@@ -14,3 +14,7 @@ services:
         value: app.py
       - key: FLASK_ENV
         value: production
+      - key: PIP_DISABLE_PIP_VERSION_CHECK
+        value: 1
+      - key: PYTHONUNBUFFERED
+        value: true

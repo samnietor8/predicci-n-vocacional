@@ -1,0 +1,4 @@
+include arbol_decision.json
+include programas_educativos.csv
+recursive-include static *
+recursive-include templates *
