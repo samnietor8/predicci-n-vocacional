@@ -1,0 +1,13 @@
+[MASTER]
+disable=
+    C0103, # nombre de variable no válido
+    C0111, # docstring faltante
+    C0303, # espacio en blanco al final de la línea
+    C0330, # mal sangrado
+    W0311, # sangrado con tabulaciones
+    W0703, # captura de excepción genérica
+    R0903, # muy pocas métodos públicos
+    R0913, # demasiados argumentos
+
+[FORMAT]
+max-line-length=120
