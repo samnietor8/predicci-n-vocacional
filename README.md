@@ -52,6 +52,79 @@ pip install -r requirements.txt
 python app.py
 ```
 
+## Opciones de Despliegue
+
+Existen varias plataformas sencillas donde puedes desplegar esta aplicación de forma gratuita:
+
+### 1. Render (Configuración actual)
+
+Render es una plataforma de nube unificada que facilita el despliegue de aplicaciones web.
+
+1. Crea una cuenta en [Render](https://render.com/)
+2. Conecta tu repositorio de GitHub
+3. Crea un nuevo servicio web
+4. Configura los siguientes campos:
+   - **Root Directory**: / (o dejar en blanco)
+   - **Build Command**: `./build.sh`
+   - **Start Command**: `gunicorn wsgi:app`
+   - **Environment Variables**:
+     - `PYTHON_VERSION`: 3.9.18
+     - `FLASK_APP`: app.py
+     - `FLASK_ENV`: production
+
+### 2. GitHub Pages
+
+GitHub Pages es una opción excelente para desplegar la interfaz frontend de la aplicación de forma estática.
+
+1. Asegúrate de tener un repositorio en GitHub
+2. Ve a Settings > Pages en tu repositorio
+3. Selecciona la rama principal (main o master) como fuente
+4. Configura la carpeta /docs o /root según tu estructura
+5. GitHub generará automáticamente una URL para tu aplicación (username.github.io/repository)
+6. Para aplicaciones dinámicas, puedes configurar la API para que se ejecute en otro servicio
+
+### 3. Railway
+
+Railway es una plataforma que facilita el despliegue de aplicaciones con un flujo de trabajo sencillo.
+
+1. Crea una cuenta en [Railway](https://railway.app/)
+2. Conecta tu repositorio de GitHub
+3. Railway detectará automáticamente la configuración en `railway.json`
+4. Haz clic en "Deploy" y tu aplicación estará en línea en minutos
+
+### 4. Replit
+
+Replit es una plataforma de desarrollo colaborativo en línea que facilita la ejecución de código.
+
+1. Crea una cuenta en [Replit](https://replit.com/)
+2. Crea un nuevo repl e importa tu repositorio de GitHub
+3. Replit detectará automáticamente la configuración en `.replit`
+4. Haz clic en "Run" y tu aplicación estará disponible inmediatamente
+
+### 5. Fly.io
+
+Fly.io es una plataforma para ejecutar aplicaciones y bases de datos cerca de los usuarios.
+
+1. Crea una cuenta en [Fly.io](https://fly.io/)
+2. Instala la CLI de Fly: `curl -L https://fly.io/install.sh | sh`
+3. Inicia sesión: `fly auth login`
+4. Despliega la aplicación: `fly launch`
+
+### 6. Deta Space
+
+Deta Space es una plataforma para construir y desplegar aplicaciones en la nube con un enfoque en la simplicidad.
+
+1. Crea una cuenta en [Deta Space](https://deta.space/)
+2. Instala la CLI de Deta: `curl -fsSL https://get.deta.dev/space-cli.sh | sh`
+3. Inicia sesión: `space login`
+4. Despliega la aplicación: `space push`
+
+### Ejecución local
+
+```
+python app.py
+```
+
 5. Abre tu navegador y visita `http://localhost:5000`
 
 ## Opciones de Despliegue

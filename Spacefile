@@ -1,0 +1,9 @@
+v: 0
+micros:
+  - name: prediccion-vocacional
+    src: .
+    engine: python3.9
+    primary: true
+    run: gunicorn wsgi:app
+    dev: python app.py
+    public: true

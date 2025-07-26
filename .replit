@@ -1,0 +1,12 @@
+run = "gunicorn wsgi:app"
+
+[env]
+PYTHON_VERSION = "3.9.18"
+FLASK_APP = "app.py"
+FLASK_ENV = "production"
+
+[nix]
+channel = "stable-22_11"
+
+[deployment]
+run = ["sh", "-c", "gunicorn wsgi:app"]
