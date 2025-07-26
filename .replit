@@ -1,12 +1,27 @@
 run = "gunicorn wsgi:app"
 
 [env]
-PYTHON_VERSION = "3.9.18"
+PYTHON_VERSION = "3.13.5"
 FLASK_APP = "app.py"
 FLASK_ENV = "production"
 
 [nix]
 channel = "stable-22_11"
+
+[packager]
+language = "python3"
+
+[packager.features]
+packageSearch = true
+guessImports = true
+
+[languages.python3]
+pattern = "**/*.py"
+syntax = "python"
+symbol = "🐍"
+
+[languages.python3.languageServer]
+start = ["pylsp"]
 
 [deployment]
 run = ["sh", "-c", "gunicorn wsgi:app"]

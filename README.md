@@ -38,7 +38,7 @@ Ahora disponible en dos versiones:
 
 ### Instalación local
 
-1. Asegúrate de tener Python 3.9 o superior instalado en tu sistema
+1. Asegúrate de tener Python 3.13 o superior instalado en tu sistema
 2. Clona este repositorio o descarga los archivos
 3. Instala las bibliotecas necesarias:
 
@@ -68,7 +68,7 @@ Render es una plataforma de nube unificada que facilita el despliegue de aplicac
    - **Build Command**: `./build.sh`
    - **Start Command**: `gunicorn wsgi:app`
    - **Environment Variables**:
-     - `PYTHON_VERSION`: 3.9.18
+     - `PYTHON_VERSION`: 3.13.5
      - `FLASK_APP`: app.py
      - `FLASK_ENV`: production
 
@@ -139,7 +139,7 @@ La aplicación está configurada para ser desplegada en Render.com utilizando el
    - **Environment**: Python
    - **Build Command**: `./build.sh`
    - **Start Command**: `gunicorn wsgi:app`
-   - **Python Version**: 3.9 (especificado en runtime.txt)
+   - **Python Version**: 3.13 (especificado en runtime.txt)
 
 ### Despliegue en Vercel
 
