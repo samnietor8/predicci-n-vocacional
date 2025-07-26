@@ -2,6 +2,10 @@
 
 Este sistema utiliza un árbol de decisión para recomendar programas educativos basados en diferentes características del usuario como el tipo de instituto, nivel de formación, campo de estudio y estrato socioeconómico.
 
+## Acceso en línea
+
+La aplicación está disponible en línea en: [https://prediccion-vocacional.onrender.com](https://prediccion-vocacional.onrender.com)
+
 ## Descripción
 
 El Sistema de Predicción Vocacional es una herramienta que ayuda a los estudiantes a encontrar el programa educativo más adecuado según sus preferencias y características. Utiliza un modelo de árbol de decisión previamente entrenado para hacer recomendaciones personalizadas.
@@ -32,12 +36,45 @@ Ahora disponible en dos versiones:
 
 ## Instalación
 
-1. Asegúrate de tener Python instalado en tu sistema
-2. Instala las bibliotecas necesarias:
+### Instalación local
+
+1. Asegúrate de tener Python 3.9 o superior instalado en tu sistema
+2. Clona este repositorio o descarga los archivos
+3. Instala las bibliotecas necesarias:
 
 ```
 pip install -r requirements.txt
 ```
+
+### Despliegue en Render
+
+1. Crea una cuenta en [Render](https://render.com)
+2. Conecta tu repositorio de GitHub o GitLab
+3. Crea un nuevo Web Service con las siguientes configuraciones:
+   - **Environment**: Python
+   - **Build Command**: `./build.sh`
+   - **Start Command**: `gunicorn app:app`
+   - **Python Version**: 3.9 (especificado en runtime.txt)
+
+4. Asegúrate de que los siguientes archivos estén en la raíz de tu repositorio:
+   - `app.py`
+   - `arbol_decision.json`
+   - `programas_educativos.csv`
+   - `requirements.txt`
+   - `Procfile`
+   - `runtime.txt`
+   - `build.sh`
+
+5. Haz clic en "Create Web Service"
+
+### Solución de problemas en Render
+
+Si encuentras un error 500 al desplegar en Render:
+
+1. Verifica los logs en el dashboard de Render
+2. Asegúrate de que todos los archivos de datos estén correctamente subidos
+3. Verifica que las versiones de las dependencias en requirements.txt sean compatibles
+4. Comprueba que la versión de Python especificada en runtime.txt esté disponible en Render
 
 ## Uso
 

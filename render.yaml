@@ -1,0 +1,16 @@
+# Configuración para Render.com
+
+services:
+  # Servicio web para la aplicación Flask
+  - type: web
+    name: prediccion-vocacional
+    env: python
+    buildCommand: ./build.sh
+    startCommand: gunicorn wsgi:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.18
+      - key: FLASK_APP
+        value: app.py
+      - key: FLASK_ENV
+        value: production
