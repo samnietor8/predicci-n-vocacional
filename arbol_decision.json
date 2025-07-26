@@ -1,0 +1,508 @@
+{
+    "name": "CAMPO AMPLIO",
+    "threshold": 4.5,
+    "left": {
+        "name": "CAMPO AMPLIO",
+        "threshold": 1.0,
+        "left": {
+            "name": "Estrato",
+            "threshold": 1.5,
+            "left": {
+                "name": "NIVEL DE FORMACION",
+                "threshold": 0.5,
+                "left": {
+                    "name": "CAMPO DETALLADO",
+                    "threshold": 45.5,
+                    "left": {
+                        "name": "CAMPO DETALLADO",
+                        "threshold": 29.5,
+                        "left": {
+                            "class": "ingenieria en logistica",
+                            "samples": 3
+                        },
+                        "right": {
+                            "class": "ingenieria en energias renovables y sustentabilidad ambiental",
+                            "samples": 9
+                        }
+                    },
+                    "right": {
+                        "name": "CAMPO DETALLADO",
+                        "threshold": 68.5,
+                        "left": {
+                            "class": "licenciatura en educacion fisica",
+                            "samples": 3
+                        },
+                        "right": {
+                            "class": "licenciatura en ciencias sociales",
+                            "samples": 6
+                        }
+                    }
+                },
+                "right": {
+                    "name": "NIVEL DE FORMACION",
+                    "threshold": 1.5,
+                    "left": {
+                        "name": "CAMPO DETALLADO",
+                        "threshold": 38.5,
+                        "left": {
+                            "class": "tecnica profesional en estetica y cosmetologia",
+                            "samples": 7
+                        },
+                        "right": {
+                            "class": "profesional universitario en diseno textil para la industria",
+                            "samples": 19
+                        }
+                    },
+                    "right": {
+                        "name": "CAMPO DETALLADO",
+                        "threshold": 45.5,
+                        "left": {
+                            "class": "administracion de empresas",
+                            "samples": 13
+                        },
+                        "right": {
+                            "class": "gestion deportiva",
+                            "samples": 5
+                        }
+                    }
+                }
+            },
+            "right": {
+                "name": "Estrato",
+                "threshold": 2.5,
+                "left": {
+                    "name": "CAMPO DETALLADO",
+                    "threshold": 38.5,
+                    "left": {
+                        "name": "CAMPO DETALLADO",
+                        "threshold": 19.0,
+                        "left": {
+                            "class": "ingenieria en mecatronica",
+                            "samples": 6
+                        },
+                        "right": {
+                            "class": "administracion de negocios digitales",
+                            "samples": 8
+                        }
+                    },
+                    "right": {
+                        "name": "NIVEL DE FORMACION",
+                        "threshold": 1.5,
+                        "left": {
+                            "class": "ingenieria en energias",
+                            "samples": 20
+                        },
+                        "right": {
+                            "class": "administracion de empresas comerciales",
+                            "samples": 11
+                        }
+                    }
+                },
+                "right": {
+                    "name": "CAMPO DETALLADO",
+                    "threshold": 45.5,
+                    "left": {
+                        "name": "CAMPO DETALLADO",
+                        "threshold": 38.5,
+                        "left": {
+                            "class": "administracion de negocios sostenibles",
+                            "samples": 16
+                        },
+                        "right": {
+                            "class": "administracion agropecuaria",
+                            "samples": 28
+                        }
+                    },
+                    "right": {
+                        "name": "NIVEL DE FORMACION",
+                        "threshold": 0.5,
+                        "left": {
+                            "class": "ingenieria estadistica",
+                            "samples": 6
+                        },
+                        "right": {
+                            "class": "archivistica y gestion de la informacion digital",
+                            "samples": 13
+                        }
+                    }
+                }
+            }
+        },
+        "right": {
+            "name": "CAMPO DETALLADO",
+            "threshold": 42.5,
+            "left": {
+                "name": "CAMPO DETALLADO",
+                "threshold": 17.5,
+                "left": {
+                    "name": "NIVEL DE FORMACION",
+                    "threshold": 1.5,
+                    "left": {
+                        "name": "Estrato",
+                        "threshold": 1.5,
+                        "left": {
+                            "class": "ingenieria en redes y telecomunicaciones",
+                            "samples": 6
+                        },
+                        "right": {
+                            "class": "ingenieria en seguridad de la informacion",
+                            "samples": 8
+                        }
+                    },
+                    "right": {
+                        "name": "CAMPO ESPECIFICO",
+                        "threshold": 3.0,
+                        "left": {
+                            "class": "administracion deportiva",
+                            "samples": 8
+                        },
+                        "right": {
+                            "class": "administracion financiera",
+                            "samples": 9
+                        }
+                    }
+                },
+                "right": {
+                    "name": "Estrato",
+                    "threshold": 1.5,
+                    "left": {
+                        "name": "NIVEL DE FORMACION",
+                        "threshold": 1.5,
+                        "left": {
+                            "class": "ingenieria en seguridad y salud para el trabajo",
+                            "samples": 8
+                        },
+                        "right": {
+                            "class": "administracion de tecnologias de la informacion",
+                            "samples": 9
+                        }
+                    },
+                    "right": {
+                        "name": "Estrato",
+                        "threshold": 2.5,
+                        "left": {
+                            "class": "banca y finanzas",
+                            "samples": 11
+                        },
+                        "right": {
+                            "class": "administracion de riesgos, seguridad y salud en el trabajo",
+                            "samples": 9
+                        }
+                    }
+                }
+            },
+            "right": {
+                "name": "CAMPO DETALLADO",
+                "threshold": 62.5,
+                "left": {
+                    "name": "TIPO DE INSTITUTO",
+                    "threshold": 0.5,
+                    "left": {
+                        "name": "CAMPO DETALLADO",
+                        "threshold": 52.5,
+                        "left": {
+                            "class": "administracion policial",
+                            "samples": 8
+                        },
+                        "right": {
+                            "class": "administracion ambiental",
+                            "samples": 10
+                        }
+                    },
+                    "right": {
+                        "name": "NIVEL DE FORMACION",
+                        "threshold": 1.5,
+                        "left": {
+                            "class": "profesional en mercadeo y publicidad",
+                            "samples": 6
+                        },
+                        "right": {
+                            "class": "administracion empresas agroindustriales",
+                            "samples": 10
+                        }
+                    }
+                },
+                "right": {
+                    "name": "Estrato",
+                    "threshold": 1.5,
+                    "left": {
+                        "name": "NIVEL DE FORMACION",
+                        "threshold": 1.5,
+                        "left": {
+                            "class": "licenciatura en educacion fisica, recreacion y deportes",
+                            "samples": 12
+                        },
+                        "right": {
+                            "class": "administracion de produccion y logistica internacional",
+                            "samples": 5
+                        }
+                    },
+                    "right": {
+                        "name": "Estrato",
+                        "threshold": 2.5,
+                        "left": {
+                            "class": "ciencia de la informacion y bibliotecologia",
+                            "samples": 9
+                        },
+                        "right": {
+                            "class": "animacion",
+                            "samples": 8
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "right": {
+        "name": "CAMPO DETALLADO",
+        "threshold": 42.5,
+        "left": {
+            "name": "CAMPO ESPECIFICO",
+            "threshold": 14.5,
+            "left": {
+                "name": "CAMPO DETALLADO",
+                "threshold": 20.5,
+                "left": {
+                    "name": "Estrato",
+                    "threshold": 1.5,
+                    "left": {
+                        "name": "CAMPO ESPECIFICO",
+                        "threshold": 7.0,
+                        "left": {
+                            "class": "administracion publica territorial",
+                            "samples": 7
+                        },
+                        "right": {
+                            "class": "estudios literarios",
+                            "samples": 7
+                        }
+                    },
+                    "right": {
+                        "name": "Estrato",
+                        "threshold": 2.5,
+                        "left": {
+                            "class": "comunicacion y educacion digital",
+                            "samples": 12
+                        },
+                        "right": {
+                            "class": "agronomia",
+                            "samples": 10
+                        }
+                    }
+                },
+                "right": {
+                    "name": "NIVEL DE FORMACION",
+                    "threshold": 1.5,
+                    "left": {
+                        "name": "Estrato",
+                        "threshold": 1.5,
+                        "left": {
+                            "class": "ingenieria mecatronica",
+                            "samples": 9
+                        },
+                        "right": {
+                            "class": "ingenieria mecanica",
+                            "samples": 14
+                        }
+                    },
+                    "right": {
+                        "name": "CAMPO ESPECIFICO",
+                        "threshold": 10.5,
+                        "left": {
+                            "class": "ciencia politica e innovacion publica",
+                            "samples": 10
+                        },
+                        "right": {
+                            "class": "administracion turistica y hotelera",
+                            "samples": 9
+                        }
+                    }
+                }
+            },
+            "right": {
+                "name": "CAMPO DETALLADO",
+                "threshold": 22.0,
+                "left": {
+                    "name": "NIVEL DE FORMACION",
+                    "threshold": 0.5,
+                    "left": {
+                        "name": "Estrato",
+                        "threshold": 1.5,
+                        "left": {
+                            "class": "licenciatura en filosofia",
+                            "samples": 6
+                        },
+                        "right": {
+                            "class": "licenciatura en bilinguismo con enfasis en espanol e ingles",
+                            "samples": 10
+                        }
+                    },
+                    "right": {
+                        "name": "Estrato",
+                        "threshold": 2.5,
+                        "left": {
+                            "class": "administracion de servicios de salud",
+                            "samples": 14
+                        },
+                        "right": {
+                            "class": "profesional en teologia",
+                            "samples": 6
+                        }
+                    }
+                },
+                "right": {
+                    "name": "CAMPO DETALLADO",
+                    "threshold": 31.0,
+                    "left": {
+                        "name": "Estrato",
+                        "threshold": 1.5,
+                        "left": {
+                            "class": "agroecologia",
+                            "samples": 10
+                        },
+                        "right": {
+                            "class": "administracion de empresas y transformacion digital",
+                            "samples": 11
+                        }
+                    },
+                    "right": {
+                        "name": "NIVEL DE FORMACION",
+                        "threshold": 1.5,
+                        "left": {
+                            "class": "licenciatura en artes plasticas",
+                            "samples": 11
+                        },
+                        "right": {
+                            "class": "ciencias politicas",
+                            "samples": 9
+                        }
+                    }
+                }
+            }
+        },
+        "right": {
+            "name": "CAMPO DETALLADO",
+            "threshold": 54.0,
+            "left": {
+                "name": "Estrato",
+                "threshold": 2.5,
+                "left": {
+                    "name": "Estrato",
+                    "threshold": 1.5,
+                    "left": {
+                        "name": "NIVEL DE FORMACION",
+                        "threshold": 1.5,
+                        "left": {
+                            "class": "marketing integral y negocios globales",
+                            "samples": 11
+                        },
+                        "right": {
+                            "class": "creacion escenica",
+                            "samples": 7
+                        }
+                    },
+                    "right": {
+                        "name": "TIPO DE INSTITUTO",
+                        "threshold": 0.5,
+                        "left": {
+                            "class": "cultura fisica y deporte",
+                            "samples": 16
+                        },
+                        "right": {
+                            "class": "creacion digital",
+                            "samples": 12
+                        }
+                    }
+                },
+                "right": {
+                    "name": "TIPO DE INSTITUTO",
+                    "threshold": 0.5,
+                    "left": {
+                        "name": "NIVEL DE FORMACION",
+                        "threshold": 0.5,
+                        "left": {
+                            "class": "interprete profesional de la lengua de senas colombiana",
+                            "samples": 6
+                        },
+                        "right": {
+                            "class": "cultura fisica, deporte y recreacion",
+                            "samples": 12
+                        }
+                    },
+                    "right": {
+                        "name": "NIVEL DE FORMACION",
+                        "threshold": 1.5,
+                        "left": {
+                            "class": "licenciatura en espanol e ingles",
+                            "samples": 4
+                        },
+                        "right": {
+                            "class": "direccion y produccion de cine y television",
+                            "samples": 4
+                        }
+                    }
+                }
+            },
+            "right": {
+                "name": "CAMPO ESPECIFICO",
+                "threshold": 25.5,
+                "left": {
+                    "name": "CAMPO DETALLADO",
+                    "threshold": 65.5,
+                    "left": {
+                        "name": "Estrato",
+                        "threshold": 1.5,
+                        "left": {
+                            "class": "administracion turistica",
+                            "samples": 7
+                        },
+                        "right": {
+                            "class": "arqueologia",
+                            "samples": 10
+                        }
+                    },
+                    "right": {
+                        "name": "CAMPO DETALLADO",
+                        "threshold": 74.0,
+                        "left": {
+                            "class": "artes plasticas",
+                            "samples": 9
+                        },
+                        "right": {
+                            "class": "contaduria digital tech",
+                            "samples": 11
+                        }
+                    }
+                },
+                "right": {
+                    "name": "Estrato",
+                    "threshold": 2.5,
+                    "left": {
+                        "name": "CAMPO ESPECIFICO",
+                        "threshold": 32.0,
+                        "left": {
+                            "class": "administracion en seguridad y salud en el trabajo",
+                            "samples": 8
+                        },
+                        "right": {
+                            "class": "diseno digital y multimedia",
+                            "samples": 10
+                        }
+                    },
+                    "right": {
+                        "name": "CAMPO DETALLADO",
+                        "threshold": 76.0,
+                        "left": {
+                            "class": "administracion de la seguridad y salud en el trabajo",
+                            "samples": 9
+                        },
+                        "right": {
+                            "class": "ingenieria en control y automatizacion industrial",
+                            "samples": 10
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
